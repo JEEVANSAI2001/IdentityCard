@@ -1,0 +1,90 @@
+.mainbody
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+
+}
+.container
+{
+  border: 1px solid black;
+  border-radius: 12px;
+  width:300px;
+  height:0%;
+  margin:2%;
+  box-shadow: 18px 18px 5px -8px black;
+}
+.textcontainer
+{
+  border: 1px solid black;
+  border-radius: 12px;
+  height: 0%;
+  width:320px;
+  margin:2%;
+  box-shadow: 18px 18px 5px -8px black;
+
+}
+.textcontainer1
+{
+  border: 1px solid black;
+  border-radius: 12px;
+  height: 0%;
+  width:650px;
+  margin:2%;
+  box-shadow: 18px 18px 5px -8px black;
+
+}
+.namecontainer
+{
+  border: 1px solid black;
+  border-radius: 12px;
+  width:auto;
+  margin:2%;
+}
+.namecontainer p
+{
+  margin-left: 3%;
+}
+.textnamecontainer
+{
+  background-color: grey;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  width:auto;
+  padding-top: 2%;
+  text-align: center;
+}
+.profile
+{
+  width:50%;
+  border:1px solid black;
+  border-radius: 80%;
+  margin-top: 4%;
+}
+.footerimg
+{
+  max-width:270px;
+  width:16%;
+  margin:1%;
+}
+@media only screen and (min-width:360px) and (max-width:640px)
+{
+  .container,.textcontainer,.textcontainer1
+  {
+    width:93%;
+    margin-top:8%;
+  }
+}
+@media only screen and (min-width:640px) and (max-width:1464px)
+{
+    .container,.textcontainer
+    {
+      width:45%;
+    }
+    .textcontainer1
+    {
+      width:93%;
+    }
+}
